@@ -1,0 +1,16 @@
+{
+  "name": "ts-responses",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "github.com:ncostamagna/ts-responses",
+  "description": "",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "author": "Nahuel Costamagna",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
