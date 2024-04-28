@@ -4,9 +4,9 @@
         "module": "commonjs",
         "lib": ["es2015"],
         "declaration": true,
-        "outDir": "./dist",
+        "outDir": "./lib",
         "strict": true
     },
-    "include": ["response/**/*"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
+    "include": ["response/*"],
+    "exclude": ["node_modules"]
 }

@@ -1,0 +1,13 @@
+name: Publishing package 
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "**"
+
+jobs:
+  publish:
+    uses: ncostamagna/github-workflows-templates/.github/workflows/ts-publish.yml@deploy
+    secrets: inherit

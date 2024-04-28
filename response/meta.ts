@@ -1,4 +1,4 @@
-interface MetaPagination {
+export interface MetaPagination {
     page: number;
     perPage: number;
     totalCount: number;
@@ -53,4 +53,4 @@ const buildPaginator = (page: number | string, limit: number | string, total: nu
     };
 };
 
-export {MetaPagination, buildPaginator};
+export {buildPaginator};

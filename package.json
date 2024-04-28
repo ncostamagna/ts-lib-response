@@ -1,16 +1,28 @@
 {
   "name": "ts-responses",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": "github.com:ncostamagna/ts-responses",
+  "version": "1.0.8",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "description": "",
+  "homepage": "https://github.com/ncostamagna/ts-responses#readme",
   "scripts": {
-    "build": "rm -rf ./dist && tsc"
+    "build": "rm -rf ./lib && tsc",
+    "prepublish": "npm run build"
   },
+  "files": [
+    "/lib",
+    "/index.d.ts"
+  ],
   "author": "Nahuel Costamagna",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ncostamagna/ts-responses.git"
+  },
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
