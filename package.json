@@ -1,6 +1,5 @@
 {
   "name": "ts-responses",
-  "version": "1.0.8",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "",
