@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "test",
+    "dist",
+    "prettierrc.js",
+    "jest.config.js",
+    "node_modules"
+  ]
+}

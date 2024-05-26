@@ -7,6 +7,10 @@
         "outDir": "./lib",
         "strict": true
     },
-    "include": ["src/*"],
-    "exclude": ["node_modules", "prettierrc.js", "jest.config.js"]
+    "exclude": [
+        "dist",
+        "prettierrc.js",
+        "jest.config.js",
+        "node_modules"
+      ]
 }
